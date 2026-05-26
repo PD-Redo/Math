@@ -9,6 +9,7 @@ double a_b(double x, double *l, double *h);
 double my_fabs(double abs);
 int main()
 {
+    printf("hi");
     int count = 0, n;
     double a = 0, b = 3, c = 0, num;
     printf("Enter number whose root is to be calculated:");
