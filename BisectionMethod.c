@@ -47,7 +47,10 @@ int main()
     {
         printf("root:=%lf ", a);
     }
-    printf("iterations:%d", count);
+    printf("iterations:%d\n", count);
+    getchar();
+    printf("Press any key to exit:");
+    getchar();
     return 0;
 }
 
